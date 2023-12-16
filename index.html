@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/fonts/slick.svg" />
 
     <link rel="stylesheet" href="STYLE.css" />
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
 </head>
 
 <body id="page-top" class="index" data-pinterest-extension-installed="cr1.3.4">
@@ -327,6 +328,23 @@
             </div>
         </div>
     </section>
+    <ol>
+        <li class="text-center">
+            Scan this QR for Fill up Form
+            <div id="qrcode" class="qrcode">
+            </div>
+            <a href="https://forms.zohopublic.in/harshsharmasunil/form/StudentInvitationforPMPatelHighschool/formperma/ndZPUmslGpx5rsNuoXaa0tag0VISGYBpgHpBF3c4Lf0"
+                target="_blank">CLICK HERE</a>
+        </li>
+    </ol>
+    <script>
+        var qrcode = new QRCode(document.getElementById("qrcode"), {
+            text: "https://forms.zohopublic.in/harshsharmasunil/form/StudentInvitationforPMPatelHighschool/formperma/ndZPUmslGpx5rsNuoXaa0tag0VISGYBpgHpBF3c4Lf0",
+            width: 128,
+            height: 128
+        });
+    </script>
+
 
     <!-- About Section -->
     <section id="about">
