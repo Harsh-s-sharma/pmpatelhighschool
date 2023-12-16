@@ -250,7 +250,7 @@ fieldset[disabled] .btn-xl.active {
   }
 
   .navbar-default.navbar-shrink {
-    padding: 10px 0;
+    padding: 0px 0;
     background-color: #222;
   }
 
@@ -752,7 +752,7 @@ section#contact .text-danger {
 }
 
 footer {
-  padding: 25px 0;
+  padding: 0 0;
   text-align: center;
 }
 
